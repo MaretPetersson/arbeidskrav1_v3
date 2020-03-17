@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+p {
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    margin-bottom:15px;
+}
+header {
+    width: 100%;
+    background-color: #F2B705;
+    position: fixed;
+    z-index: 12;
+    border-style: solid;
+    border-color: white;
+}
+header nav {
+    width: 1200px;
+    padding: 30px 20px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    letter-spacing: -1.5px;
+}
+.menu li a{
+    display:inline-block;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+}
+.menu li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.wrapp-poster{
+    width: 100%;
+    height: 428px;
+    background-image: url(hovedbilde.PNG);
+    background-repeat: no-repeat;
+    background-position: center, top;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+img {
+  width: 100%;
+  height: auto;
+    max-width: 100%;
+}
+#gallery{
+    width: 100%;
+    display: inline-block;
+    height: auto;
+}
+div.gallery {
+  margin: none;
+  border: none;
+  float: left;
+  width: 280px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 1200px) {
+  div.gallery {
+    display: none;
+ }
+}
+@media only screen and (max-width: 992px) {
+  div#home {
+    font-size: 30px;
+      padding-left: 50px;}
+    .menu{
+        display: none;
+    }
+    div#menu{
+        display: block;
+    }
+    img{
+        display: none;
+    }
+  }
+#home{
+    padding-left: 500px;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+#home h1{
+    font-family: 'Lobster', cursive;
+    color: ghostwhite;
+    font-stretch: extra-expanded;
+    text-shadow: 2px 2px 8px #000000;
+}
+#home h2{
+    padding-left: 50px;
+    font-family: 'Comfortaa', cursive;
+    color:  ghostwhite;
+    font-stretch: extra-expanded;
+    text-shadow: 2px 2px 8px #000000;
+}
+#about h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+#menu h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+    padding-left: 70px;
+}
+#events h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+#reservation h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+#contact h2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+#menu{
+    background-color: #F2B705;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.column {
+  float: left;
+  width: auto;
+  padding: 15px;
+}
+
+table, th, td {
+  border: none;
+  border-collapse: collapse;
+  text-align: left;
+} 
+table {
+  border: 1px solid black;
+  column-width: auto;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+}
+td {
+  height: 30px;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.breakfast {
+  background-color: white;
+  color: black;
+  padding: 10px;
+} 
+
+.lunch {
+  background-color: white;
+  color: black;
+  padding: 10px;
+} 
+
+.dinner {
+  background-color: white;
+  color: black;
+  padding: 10px;
+} 
+
+.snacks {
+  background-color: white;
+  color: black;
+  padding: 10px;
+} 
+
+.beverages {
+  background-color: white;
+  color: black;
+  padding: 10px;
+} 
+
+#caption {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#events{
+    background-color: #F2B705;
+    width: 100%;
+    display: inline-block;
+}
+#events img{
+    width: 50%;
+    float: right;
+    }
+#events div{
+    width: 40%;
+    float: left;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+#reservation, #contact{
+    background-color: #97BF04;
+    width: 100%;
+    display: inline-block;
+}
+#reservation img, #contact img{
+    width: 50%;
+    float: left;
+    }
+#reservation div, #contact div{
+   width: 50%;
+    float: right;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+#about div{
+   width: 90%;
+    float: inherit;
+    padding-left: 70px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#about{
+    background-color: #97BF04;
+    width: 100%;
+    display: inline-block;
+    border-style: solid;
+    border-color: white;
+}
+form{
+    font-family: 'Cormorant', serif;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  padding: 15px 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   border-radius: 8px;
+   transition-duration: 0.4s;
+}
+button:hover {
+  background-color: white; 
+  color: black;
+}
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
